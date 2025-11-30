@@ -1,0 +1,167 @@
+{
+  "HomePage": {
+    "heroTitle": "Professionelle KDP-Tools & Software",
+    "heroSubtitle": "Ausführliche Testberichte, Anleitungen und Einblicke in Publisher Rocket, Helium 10, Canva und Automatisierungstools für ernsthafte KDP-Verleger.",
+    "latestPost": "Neuester Beitrag",
+    "recentPosts": "Aktuelle Beiträge"
+  },
+  "Layout": {
+    "blog": "Blog",
+    "about": "Über uns",
+    "newsletter": "Newsletter",
+    "siteName": "KDP Toolkit"
+  },
+  "Footer": {
+    "description": "Professionelle Einblicke in KDP-Tools und Software für Verleger.",
+    "quickLinks": "Schnelllinks",
+    "legal": "Rechtliches",
+    "privacyPolicy": "Datenschutzrichtlinie",
+    "termsOfService": "Nutzungsbedingungen",
+    "copyright": "© {year} KDP Toolkit. Alle Rechte vorbehalten."
+  },
+  "Metadata": {
+    "title": "KDP Toolkit - Professionelle Einblicke in KDP-Tools & Software",
+    "template": "%s | KDP Toolkit",
+    "description": "Expertenbewertungen, Anleitungen und Einblicke in die besten KDP-Tools und Software für Verleger. Ausführliche Berichterstattung über Publisher Rocket, Helium 10, Canva und Automatisierungstools.",
+    "keywords": "KDP-Tools, Publisher Rocket, Helium 10, KDP-Software, Amazon KDP, Self-Publishing, Buchveröffentlichungstools, KDP-Automatisierung",
+    "ogImageAlt": "KDP Toolkit Banner"
+  },
+  "BlogPost": {
+    "separator": "·"
+  },
+  "DarkMode": {
+    "toggle": "Dunkelmodus umschalten"
+  },
+  "Newsletter": {
+    "title": "Newsletter abonnieren",
+    "description": "Erhalten Sie die neuesten KDP-Tools, Tipps und Einblicke direkt in Ihren Posteingang.",
+    "emailLabel": "E-Mail-Adresse",
+    "emailPlaceholder": "ihre@email.com",
+    "nameLabel": "Name (optional)",
+    "namePlaceholder": "Ihr Name (optional)",
+    "subscribeButton": "Abonnieren",
+    "subscribingButton": "Wird abonniert...",
+    "success": {
+      "title": "Erfolgreich abonniert!",
+      "message": "Vielen Dank für das Abonnieren unseres Newsletters. Bitte überprüfen Sie Ihre E-Mails zur Bestätigung."
+    },
+    "error": {
+      "notConfigured": "Newsletter ist nicht konfiguriert",
+      "failedToSubscribe": "Abonnement fehlgeschlagen",
+      "tryAgain": "Abonnement fehlgeschlagen. Bitte versuchen Sie es erneut."
+    },
+    "validation": {
+      "email": "Bitte geben Sie eine gültige E-Mail-Adresse ein"
+    }
+  },
+  "RAGResearch": {
+    "showResearch": "Zugehörige Forschung anzeigen",
+    "hideResearch": "Forschung ausblenden",
+    "loading": "Forschung wird geladen...",
+    "aiGenerated": "KI-generierte Forschung aus der KDP-Wissensdatenbank",
+    "retry": "Erneut versuchen",
+    "error": {
+      "unknown": "Ein unbekannter Fehler ist aufgetreten. Bitte versuchen Sie es erneut."
+    }
+  },
+  "ReadingTime": {
+    "minutes": "{minutes} Min. Lesezeit"
+  },
+  "RelatedPosts": {
+    "title": "Ähnliche Beiträge",
+    "separator": "·",
+    "readingTime": "{minutes} Min. Lesezeit"
+  },
+  "SEO": {
+    "siteName": "KDP Toolkit"
+  },
+  "TableOfContents": {
+    "title": "Inhaltsverzeichnis"
+  },
+  "AboutPage": {
+    "title": "Über KDP Toolkit",
+    "lead": "KDP Toolkit ist Ihre vertrauenswürdige Quelle für professionelle Einblicke in KDP-Tools und -Software.",
+    "whatWeCover": {
+      "title": "Was wir behandeln",
+      "description": "Wir konzentrieren uns auf ausführliche Testberichte, Vergleiche und Anleitungen für ernsthafte KDP-Verleger, die fundierte Entscheidungen über ihren Tool-Stack treffen möchten:",
+      "tools": {
+        "publisherRocket": {
+          "title": "Publisher Rocket",
+          "description": "Keyword-Recherche und Marktanalyse"
+        },
+        "helium10": {
+          "title": "Helium 10",
+          "description": "Umfassende Suite für Amazon-Verkäufer"
+        },
+        "canva": {
+          "title": "Canva",
+          "description": "Buchcover-Design und Marketingmaterialien"
+        },
+        "automation": {
+          "title": "Automatisierungstools",
+          "description": "Optimieren Sie Ihren Veröffentlichungsworkflow"
+        },
+        "marketIntelligence": {
+          "title": "Marktintelligenz",
+          "description": "Datengesteuerte Veröffentlichungsstrategien"
+        }
+      }
+    },
+    "ourApproach": {
+      "title": "Unser Ansatz",
+      "description": "Im Gegensatz zu anfängerorientierten Inhalten zum Thema „Wie man Nischen findet“, gehen wir davon aus, dass Sie die Grundlagen kennen und umsetzbare Einblicke in professionelle Tools wünschen. Unsere Bewertungen sind:",
+      "points": {
+        "handsOn": {
+          "title": "Praxisnah",
+          "description": "Echte Erfahrung mit den von uns getesteten Tools"
+        },
+        "detailed": {
+          "title": "Detailliert",
+          "description": "Tiefgehende Analyse von Funktionen und Fähigkeiten"
+        },
+        "honest": {
+          "title": "Ehrlich",
+          "description": "Vor- und Nachteile basierend auf der tatsächlichen Nutzung"
+        },
+        "upToDate": {
+          "title": "Aktuell",
+          "description": "Regelmäßige Updates, wenn sich die Tools weiterentwickeln"
+        }
+      }
+    },
+    "aiResearch": {
+      "title": "Erweitert mit KI-Forschung",
+      "description": "Jeder Artikel enthält optionale KI-gestützte Forschungseinblicke aus unserer kuratierten KDP-Wissensdatenbank, die zusätzlichen Kontext und Daten zur Unterstützung Ihrer Entscheidungsfindung liefern."
+    },
+    "stayUpdated": {
+      "title": "Bleiben Sie auf dem Laufenden",
+      "description": "Abonnieren Sie unseren Newsletter, um die neuesten Tool-Bewertungen, Vergleichsanleitungen und Veröffentlichungseinblicke direkt in Ihren Posteingang zu erhalten."
+    },
+    "metadata": {
+      "title": "Über uns",
+      "description": "Erfahren Sie mehr über KDP Toolkit - Ihre Quelle für professionelle Einblicke in KDP-Tools und -Software."
+    }
+  },
+  "NewsletterPage": {
+    "title": "Abonnieren Sie unseren Newsletter",
+    "description": "Erhalten Sie die neuesten KDP-Tool-Bewertungen, Vergleichsanleitungen und Veröffentlichungseinblicke direkt in Ihren Posteingang.",
+    "benefits": {
+      "expertReviews": {
+        "title": "Expertenbewertungen",
+        "description": "Tiefgehende Analyse der neuesten KDP-Tools und -Software"
+      },
+      "actionableInsights": {
+        "title": "Umsetzbare Einblicke",
+        "description": "Praktische Tipps zur Verbesserung Ihres Veröffentlichungsworkflows"
+      },
+      "stayUpdated": {
+        "title": "Bleiben Sie auf dem Laufenden",
+        "description": "Seien Sie der Erste, der über neue Tools und Updates informiert wird"
+      }
+    },
+    "metadata": {
+      "title": "Newsletter",
+      "description": "Abonnieren Sie den KDP Toolkit-Newsletter, um die neuesten Tool-Bewertungen, Anleitungen und Einblicke zu erhalten."
+    }
+  }
+}

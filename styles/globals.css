@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom CSS Variables */
+:root {
+  --color-primary: 59 130 246;
+  --color-secondary: 99 102 241;
+}
+
+.dark {
+  --color-primary: 96 165 250;
+  --color-secondary: 129 140 248;
+}
+
+/* Base Styles */
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+
+  body {
+    @apply antialiased;
+  }
+
+  /* Improve text rendering */
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-bold tracking-tight;
+    text-rendering: optimizeLegibility;
+  }
+
+  p {
+    @apply leading-relaxed;
+  }
+
+  /* Focus styles for accessibility */
+  a:focus-visible,
+  button:focus-visible,
+  input:focus-visible,
+  textarea:focus-visible {
+    @apply outline-none ring-2 ring-primary-500 ring-offset-2 dark:ring-offset-gray-900;
+  }
+}
+
+/* Syntax Highlighting (for code blocks) */
+@layer components {
+  .hljs {
+    @apply rounded-lg bg-gray-100 p-4 dark:bg-gray-800;
+  }
+
+  .hljs-comment,
+  .hljs-quote {
+    @apply text-gray-500 dark:text-gray-400;
+  }
+
+  .hljs-keyword,
+  .hljs-selector-tag,
+  .hljs-subst {
+    @apply text-primary-600 dark:text-primary-400;
+  }
+
+  .hljs-string,
+  .hljs-title,
+  .hljs-section,
+  .hljs-attribute,
+  .hljs-literal,
+  .hljs-template-tag,
+  .hljs-template-variable,
+  .hljs-type {
+    @apply text-green-600 dark:text-green-400;
+  }
+
+  .hljs-number {
+    @apply text-orange-600 dark:text-orange-400;
+  }
+
+  .hljs-built_in,
+  .hljs-builtin-name {
+    @apply text-purple-600 dark:text-purple-400;
+  }
+
+  .hljs-variable,
+  .hljs-attr {
+    @apply text-blue-600 dark:text-blue-400;
+  }
+
+  .hljs-function {
+    @apply text-pink-600 dark:text-pink-400;
+  }
+
+  .hljs-meta {
+    @apply text-gray-600 dark:text-gray-400;
+  }
+
+  .hljs-emphasis {
+    @apply italic;
+  }
+
+  .hljs-strong {
+    @apply font-bold;
+  }
+}
+
+/* Prose Styles Enhancement */
+@layer utilities {
+  .prose {
+    @apply max-w-none;
+  }
+
+  .prose img {
+    @apply rounded-lg;
+  }
+
+  .prose blockquote {
+    @apply border-l-4 border-primary-500 pl-4 italic;
+  }
+
+  .prose code {
+    @apply rounded bg-gray-100 px-1.5 py-0.5 font-mono text-sm dark:bg-gray-800;
+  }
+
+  .prose pre code {
+    @apply bg-transparent p-0;
+  }
+
+  .prose table {
+    @apply w-full border-collapse;
+  }
+
+  .prose th {
+    @apply border-b-2 border-gray-300 bg-gray-50 px-4 py-2 text-left font-semibold dark:border-gray-700 dark:bg-gray-800;
+  }
+
+  .prose td {
+    @apply border-b border-gray-200 px-4 py-2 dark:border-gray-700;
+  }
+
+  /* Anchor links for headings */
+  .prose .anchor {
+    @apply no-underline transition-opacity hover:opacity-100;
+  }
+
+  .prose .anchor::before {
+    content: "#";
+    @apply mr-1 text-primary-500 opacity-0 transition-opacity;
+  }
+
+  .prose .anchor:hover::before {
+    @apply opacity-100;
+  }
+}
+
+/* Custom Scrollbar */
+@layer utilities {
+  /* Firefox */
+  * {
+    scrollbar-width: thin;
+    scrollbar-color: rgb(var(--color-primary)) transparent;
+  }
+
+  /* Chrome, Edge, Safari */
+  *::-webkit-scrollbar {
+    @apply w-2;
+  }
+
+  *::-webkit-scrollbar-track {
+    @apply bg-transparent;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    @apply rounded-full bg-primary-500;
+  }
+
+  *::-webkit-scrollbar-thumb:hover {
+    @apply bg-primary-600;
+  }
+}
+
+/* Print Styles */
+@media print {
+  @page {
+    margin: 2cm;
+  }
+
+  body {
+    @apply text-black;
+  }
+
+  a {
+    @apply text-black no-underline;
+  }
+
+  a[href]::after {
+    content: " (" attr(href) ")";
+    @apply text-sm text-gray-600;
+  }
+
+  nav,
+  footer,
+  aside {
+    @apply hidden;
+  }
+}
+
+/* Loading Animation */
+@keyframes shimmer {
+  0% {
+    background-position: -1000px 0;
+  }
+  100% {
+    background-position: 1000px 0;
+  }
+}
+
+.animate-shimmer {
+  animation: shimmer 2s infinite linear;
+  background: linear-gradient(
+    to right,
+    #f3f4f6 0%,
+    #e5e7eb 20%,
+    #f3f4f6 40%,
+    #f3f4f6 100%
+  );
+  background-size: 1000px 100%;
+}
+
+.dark .animate-shimmer {
+  background: linear-gradient(
+    to right,
+    #1f2937 0%,
+    #374151 20%,
+    #1f2937 40%,
+    #1f2937 100%
+  );
+}

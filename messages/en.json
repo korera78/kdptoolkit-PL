@@ -1,0 +1,416 @@
+{
+  "HomePage": {
+    "heroTitle": "Professional KDP Tools & Software",
+    "heroSubtitle": "In-depth reviews, guides, and insights on Publisher Rocket, Helium 10, Canva, and automation tools for serious KDP publishers.",
+    "latestPost": "Latest Post",
+    "recentPosts": "Recent Posts"
+  },
+  "Layout": {
+    "home": "Home",
+    "tools": "Tools",
+    "guides": "Guides",
+    "calculators": "Calculators",
+    "reviews": "Reviews",
+    "blog": "Blog",
+    "about": "About",
+    "newsletter": "Newsletter",
+    "subscribe": "Subscribe",
+    "siteName": "KDP Toolkit"
+  },
+  "Footer": {
+    "description": "Professional insights on KDP tools and software for publishers. Reviews, guides, and resources for serious self-publishers.",
+    "navigation": "Navigation",
+    "resources": "Resources",
+    "legal": "Legal",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "affiliateDisclosure": "Affiliate Disclosure",
+    "contact": "Contact",
+    "allTopics": "All Topics",
+    "sitemap": "Sitemap",
+    "rss": "RSS Feed",
+    "copyright": "© {year} KDP Toolkit. All rights reserved."
+  },
+  "Metadata": {
+    "title": "KDP Toolkit - Professional KDP Tools & Software Insights",
+    "template": "%s | KDP Toolkit",
+    "description": "Expert reviews, guides, and insights on the best KDP tools and software for publishers. In-depth coverage of Publisher Rocket, Helium 10, Canva, and automation tools.",
+    "keywords": "KDP tools, Publisher Rocket, Helium 10, KDP software, Amazon KDP, self-publishing, book publishing tools, KDP automation",
+    "ogImageAlt": "KDP Toolkit banner image"
+  },
+  "BlogPost": {
+    "separator": "·"
+  },
+  "DarkMode": {
+    "toggle": "Toggle dark mode"
+  },
+  "Newsletter": {
+    "title": "Subscribe to Newsletter",
+    "description": "Get the latest KDP tools, tips, and insights delivered to your inbox.",
+    "emailLabel": "Email address",
+    "emailPlaceholder": "your@email.com",
+    "nameLabel": "Name (optional)",
+    "namePlaceholder": "Your name (optional)",
+    "subscribeButton": "Subscribe",
+    "subscribingButton": "Subscribing...",
+    "success": {
+      "title": "Successfully subscribed!",
+      "message": "Thank you for subscribing to our newsletter. Check your email for confirmation."
+    },
+    "error": {
+      "notConfigured": "Newsletter is not configured",
+      "failedToSubscribe": "Failed to subscribe",
+      "tryAgain": "Failed to subscribe. Please try again."
+    },
+    "validation": {
+      "email": "Please enter a valid email address"
+    }
+  },
+  "RAGResearch": {
+    "showResearch": "Show Related Research",
+    "hideResearch": "Hide Research",
+    "loading": "Loading Research...",
+    "aiGenerated": "AI-generated research from KDP knowledge base",
+    "retry": "Retry",
+    "error": {
+      "unknown": "An unknown error occurred. Please try again."
+    }
+  },
+  "ReadingTime": {
+    "minutes": "{minutes} min read"
+  },
+  "RelatedPosts": {
+    "title": "Related Posts",
+    "separator": "·",
+    "readingTime": "{minutes} min read"
+  },
+  "SEO": {
+    "siteName": "KDP Toolkit"
+  },
+  "TableOfContents": {
+    "title": "Table of Contents"
+  },
+  "AboutPage": {
+    "title": "About KDP Toolkit",
+    "lead": "KDP Toolkit is your trusted source for professional insights on KDP tools and software.",
+    "whatWeCover": {
+      "title": "What We Cover",
+      "description": "We focus on in-depth reviews, comparisons, and guides for serious KDP publishers who want to make informed decisions about their tool stack:",
+      "tools": {
+        "publisherRocket": {
+          "title": "Publisher Rocket",
+          "description": "Keyword research and market analysis"
+        },
+        "helium10": {
+          "title": "Helium 10",
+          "description": "Comprehensive Amazon seller suite"
+        },
+        "canva": {
+          "title": "Canva",
+          "description": "Book cover design and marketing materials"
+        },
+        "automation": {
+          "title": "Automation Tools",
+          "description": "Streamline your publishing workflow"
+        },
+        "marketIntelligence": {
+          "title": "Market Intelligence",
+          "description": "Data-driven publishing strategies"
+        }
+      }
+    },
+    "ourApproach": {
+      "title": "Our Approach",
+      "description": "Unlike beginner-focused \"how to find niches\" content, we assume you know the basics and want actionable insights on professional-grade tools. Our reviews are:",
+      "points": {
+        "handsOn": {
+          "title": "Hands-on",
+          "description": "Real experience with the tools we review"
+        },
+        "detailed": {
+          "title": "Detailed",
+          "description": "In-depth analysis of features and capabilities"
+        },
+        "honest": {
+          "title": "Honest",
+          "description": "Pros and cons based on actual use"
+        },
+        "upToDate": {
+          "title": "Up-to-date",
+          "description": "Regular updates as tools evolve"
+        }
+      }
+    },
+    "aiResearch": {
+      "title": "Enhanced with AI Research",
+      "description": "Each article includes optional AI-powered research insights from our curated KDP knowledge base, providing additional context and data to support your decision-making."
+    },
+    "stayUpdated": {
+      "title": "Stay Updated",
+      "description": "Subscribe to our newsletter to get the latest tool reviews, comparison guides, and publishing insights delivered to your inbox."
+    },
+    "metadata": {
+      "title": "About",
+      "description": "Learn about KDP Toolkit - your source for professional insights on KDP tools and software."
+    }
+  },
+  "NewsletterPage": {
+    "title": "Subscribe to Our Newsletter",
+    "description": "Get the latest KDP tool reviews, comparison guides, and publishing insights delivered to your inbox.",
+    "benefits": {
+      "expertReviews": {
+        "title": "Expert Reviews",
+        "description": "In-depth analysis of the latest KDP tools and software"
+      },
+      "actionableInsights": {
+        "title": "Actionable Insights",
+        "description": "Practical tips to improve your publishing workflow"
+      },
+      "stayUpdated": {
+        "title": "Stay Updated",
+        "description": "Be first to know about new tools and updates"
+      }
+    },
+    "metadata": {
+      "title": "Newsletter",
+      "description": "Subscribe to KDP Toolkit newsletter for the latest tool reviews, guides, and insights."
+    }
+  },
+  "ToolsPage": {
+    "title": "KDP Tools Directory",
+    "description": "Comprehensive directory of 40+ tools for KDP publishers, organized by category, budget, and skill level.",
+    "metadata": {
+      "title": "KDP Tools Directory",
+      "description": "Browse 40+ KDP publishing tools organized by category, budget, and skill level. From keyword research to cover design."
+    }
+  },
+  "GuidesPage": {
+    "title": "KDP Publishing Guides",
+    "description": "Step-by-step guides and tutorials covering all aspects of KDP publishing, from beginner to advanced.",
+    "metadata": {
+      "title": "KDP Publishing Guides",
+      "description": "Learn KDP publishing with our structured learning path. 40+ guides from beginner basics to advanced strategies."
+    }
+  },
+  "CalculatorsPage": {
+    "title": "KDP Calculators",
+    "description": "Free interactive calculators to help you make data-driven decisions for your KDP publishing business.",
+    "metadata": {
+      "title": "KDP Calculators",
+      "description": "Free KDP calculators for royalties, pricing, competition analysis, and publishing budgets."
+    }
+  },
+  "ReviewsPage": {
+    "title": "Tool Reviews",
+    "description": "Honest, in-depth reviews of KDP tools and software based on real-world testing and experience.",
+    "metadata": {
+      "title": "KDP Tool Reviews",
+      "description": "In-depth reviews of Publisher Rocket, Helium 10, Canva, and other essential KDP publishing tools."
+    }
+  },
+  "PrivacyPage": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: November 21, 2025",
+    "metadata": {
+      "title": "Privacy Policy",
+      "description": "Learn how KDP Toolkit collects, uses, and protects your personal information."
+    },
+    "sections": {
+      "introduction": {
+        "title": "Introduction",
+        "content": "KDP Toolkit is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website."
+      },
+      "dataCollection": {
+        "title": "Information We Collect",
+        "intro": "We may collect information about you in a variety of ways:",
+        "items": {
+          "analytics": "Analytics data (page views, referrers, device type) via Plausible Analytics",
+          "newsletter": "Email address and name (optional) when you subscribe to our newsletter",
+          "comments": "GitHub username when you comment via Giscus",
+          "cookies": "Minimal cookies for essential site functionality and theme preferences"
+        }
+      },
+      "dataUsage": {
+        "title": "How We Use Your Information",
+        "intro": "We use the information we collect to:",
+        "items": {
+          "improve": "Improve and optimize our website",
+          "newsletter": "Send you our newsletter (if you subscribed)",
+          "analytics": "Understand how visitors use our site",
+          "legal": "Comply with legal obligations"
+        }
+      },
+      "thirdParty": {
+        "title": "Third-Party Services",
+        "intro": "We use the following third-party services:",
+        "items": {
+          "plausible": "Privacy-focused analytics (no cookies, GDPR compliant)",
+          "formspree": "Newsletter form processing",
+          "giscus": "Comment system powered by GitHub Discussions",
+          "adsense": "Advertising (may use cookies for ad targeting)",
+          "vercel": "Website hosting"
+        }
+      },
+      "cookies": {
+        "title": "Cookies",
+        "content": "We use minimal cookies primarily for remembering your theme preference (dark/light mode). Third-party services like Google AdSense may use cookies for advertising purposes."
+      },
+      "yourRights": {
+        "title": "Your Rights",
+        "intro": "You have the right to:",
+        "items": {
+          "access": "Access the personal information we hold about you",
+          "correct": "Request correction of inaccurate information",
+          "delete": "Request deletion of your information",
+          "optOut": "Opt-out of newsletter communications at any time"
+        }
+      },
+      "contact": {
+        "title": "Contact Us",
+        "content": "If you have questions about this Privacy Policy, please contact us through our contact form."
+      }
+    }
+  },
+  "TermsPage": {
+    "title": "Terms of Service",
+    "lastUpdated": "Last updated: November 21, 2025",
+    "metadata": {
+      "title": "Terms of Service",
+      "description": "Terms and conditions for using KDP Toolkit website."
+    },
+    "sections": {
+      "acceptance": {
+        "title": "Acceptance of Terms",
+        "content": "By accessing and using KDP Toolkit, you accept and agree to be bound by the terms and provisions of this agreement. If you do not agree to these terms, please do not use our site."
+      },
+      "useOfSite": {
+        "title": "Use of Site",
+        "intro": "You agree to use this site only for lawful purposes. You agree not to:",
+        "items": {
+          "lawful": "Use the site in any way that violates applicable laws or regulations",
+          "noHarm": "Transmit any harmful or malicious code",
+          "noSpam": "Engage in spamming or unauthorized advertising",
+          "respectIP": "Violate any intellectual property rights"
+        }
+      },
+      "content": {
+        "title": "Content",
+        "intro": "All content on this site, including text, images, and graphics, is the property of KDP Toolkit or its content suppliers and is protected by copyright laws.",
+        "accuracy": "While we strive to provide accurate information, we make no warranties about the completeness, reliability, or accuracy of the information on our site."
+      },
+      "intellectualProperty": {
+        "title": "Intellectual Property",
+        "content": "The content, organization, graphics, design, and other matters related to KDP Toolkit are protected under applicable copyrights and other proprietary laws. Copying, redistribution, or use of any materials without our express written permission is prohibited."
+      },
+      "affiliateLinks": {
+        "title": "Affiliate Links",
+        "content": "This site contains affiliate links. When you click on these links and make a purchase, we may earn a commission at no additional cost to you. See our Affiliate Disclosure for more details."
+      },
+      "disclaimer": {
+        "title": "Disclaimer",
+        "content": "The information provided on KDP Toolkit is for general informational purposes only. We make no representations or warranties of any kind about the completeness, accuracy, reliability, suitability, or availability of the information, products, services, or related graphics contained on the site."
+      },
+      "limitation": {
+        "title": "Limitation of Liability",
+        "content": "In no event shall KDP Toolkit be liable for any direct, indirect, incidental, consequential, or punitive damages arising out of your access to or use of the site."
+      },
+      "changes": {
+        "title": "Changes to Terms",
+        "content": "We reserve the right to modify these terms at any time. Changes will be effective immediately upon posting to the site. Your continued use of the site following any changes indicates your acceptance of the new terms."
+      },
+      "contact": {
+        "title": "Contact",
+        "content": "If you have any questions about these Terms of Service, please contact us through our contact form."
+      }
+    }
+  },
+  "DisclosurePage": {
+    "title": "Affiliate Disclosure",
+    "lastUpdated": "Last updated: November 21, 2025",
+    "metadata": {
+      "title": "Affiliate Disclosure",
+      "description": "Transparency about affiliate relationships and compensation on KDP Toolkit."
+    },
+    "sections": {
+      "overview": {
+        "title": "Overview",
+        "content": "KDP Toolkit participates in various affiliate marketing programs, which means we may earn commissions on purchases made through links on this site. This disclosure is required by the Federal Trade Commission (FTC) and is provided in the interest of full transparency."
+      },
+      "whatAreAffiliateLinks": {
+        "title": "What Are Affiliate Links?",
+        "content": "Affiliate links are special tracking links that allow us to earn a commission when you click on them and make a purchase. These commissions come at no additional cost to you and help support the operation of this site."
+      },
+      "programs": {
+        "title": "Affiliate Programs",
+        "intro": "We participate in affiliate programs for the following services:",
+        "items": {
+          "amazon": "Amazon Associates program for books and publishing-related products",
+          "publisherRocket": "Publisher Rocket affiliate program",
+          "helium10": "Helium 10 affiliate program",
+          "canva": "Canva affiliate program",
+          "others": "Other KDP and publishing-related tools and services"
+        }
+      },
+      "recommendations": {
+        "title": "Our Recommendations",
+        "content": "We only recommend tools and services that we have personally used, tested, or thoroughly researched. Our reviews are honest and based on real experience, regardless of affiliate relationships. We will clearly identify when products are recommended based on research rather than personal use."
+      },
+      "advertising": {
+        "title": "Advertising",
+        "content": "In addition to affiliate links, we may display advertising through Google AdSense or other advertising networks. These ads may be based on your browsing history and interests."
+      },
+      "transparency": {
+        "title": "Our Commitment to Transparency",
+        "content": "We believe in complete transparency. When an article contains affiliate links, we will clearly disclose this at the beginning of the article. Our goal is to provide valuable, honest information while maintaining the financial support needed to operate this site."
+      },
+      "ftc": {
+        "title": "FTC Compliance",
+        "content": "This disclosure complies with the Federal Trade Commission's 16 CFR Part 255: Guides Concerning the Use of Endorsements and Testimonials in Advertising."
+      },
+      "contact": {
+        "title": "Questions",
+        "content": "If you have any questions about our affiliate relationships or this disclosure, please contact us through our contact form."
+      }
+    }
+  },
+  "ContactPage": {
+    "title": "Contact Us",
+    "metadata": {
+      "title": "Contact",
+      "description": "Get in touch with KDP Toolkit team."
+    },
+    "info": {
+      "title": "Get in Touch",
+      "description": "Have questions, suggestions, or feedback? We'd love to hear from you!",
+      "purposes": {
+        "title": "We're here to help with:",
+        "questions": "Questions about KDP tools and software",
+        "partnerships": "Partnership and collaboration opportunities",
+        "feedback": "Feedback on our content and site",
+        "toolSuggestions": "Tool review suggestions",
+        "support": "General inquiries and support"
+      },
+      "responseTime": {
+        "title": "Response Time",
+        "description": "We aim to respond to all inquiries within 24-48 hours during business days."
+      },
+      "alternatives": {
+        "title": "Other Ways to Connect",
+        "description": "You can also subscribe to our newsletter to stay updated with the latest KDP tool reviews and insights."
+      }
+    },
+    "form": {
+      "title": "Send us a message",
+      "fields": {
+        "name": "Name",
+        "email": "Email",
+        "subject": "Subject",
+        "message": "Message"
+      },
+      "submit": "Send Message",
+      "sending": "Sending...",
+      "successMessage": "Thank you for your message! We'll get back to you soon.",
+      "errorMessage": "Sorry, there was an error sending your message. Please try again."
+    }
+  }
+}

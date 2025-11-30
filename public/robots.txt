@@ -1,0 +1,23 @@
+# robots.txt for kdptoolkit.com
+
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://kdptoolkit.com/sitemap.xml
+
+# Crawl delay (optional, adjust if needed)
+Crawl-delay: 1
+
+# Disallow admin/API routes and build files
+User-agent: *
+Disallow: /api/
+Disallow: /_next/
+Disallow: /admin/
+
+# Allow common bots
+User-agent: Googlebot
+User-agent: Bingbot
+User-agent: Slurp
+User-agent: DuckDuckBot
+Allow: /

@@ -1,0 +1,57 @@
+/* Override Tailwind Typography dark mode colors for better readability */
+.dark .prose {
+  --tw-prose-body: rgb(243 244 246) !important; /* gray-100 */
+  --tw-prose-headings: rgb(249 250 251) !important; /* gray-50 */
+  --tw-prose-lead: rgb(229 231 235) !important; /* gray-200 */
+  --tw-prose-links: rgb(96 165 250) !important; /* blue-400 */
+  --tw-prose-bold: rgb(249 250 251) !important; /* gray-50 */
+  --tw-prose-counters: rgb(209 213 219) !important; /* gray-300 */
+  --tw-prose-bullets: rgb(209 213 219) !important; /* gray-300 */
+  --tw-prose-hr: rgb(75 85 99) !important; /* gray-600 */
+  --tw-prose-quotes: rgb(229 231 235) !important; /* gray-200 */
+  --tw-prose-quote-borders: rgb(75 85 99) !important; /* gray-600 */
+  --tw-prose-captions: rgb(209 213 219) !important; /* gray-300 */
+  --tw-prose-code: rgb(251 207 232) !important; /* pink-200 */
+  --tw-prose-pre-code: rgb(229 231 235) !important; /* gray-200 */
+  --tw-prose-pre-bg: rgb(31 41 55) !important; /* gray-800 */
+  --tw-prose-th-borders: rgb(75 85 99) !important; /* gray-600 */
+  --tw-prose-td-borders: rgb(55 65 81) !important; /* gray-700 */
+  --tw-prose-invert-body: rgb(243 244 246) !important; /* gray-100 */
+  --tw-prose-invert-headings: rgb(249 250 251) !important; /* gray-50 */
+  --tw-prose-invert-lead: rgb(229 231 235) !important; /* gray-200 */
+  --tw-prose-invert-links: rgb(96 165 250) !important; /* blue-400 */
+  --tw-prose-invert-bold: rgb(249 250 251) !important; /* gray-50 */
+  --tw-prose-invert-counters: rgb(209 213 219) !important; /* gray-300 */
+  --tw-prose-invert-bullets: rgb(209 213 219) !important; /* gray-300 */
+  --tw-prose-invert-hr: rgb(75 85 99) !important; /* gray-600 */
+  --tw-prose-invert-quotes: rgb(229 231 235) !important; /* gray-200 */
+  --tw-prose-invert-quote-borders: rgb(75 85 99) !important; /* gray-600 */
+  --tw-prose-invert-captions: rgb(209 213 219) !important; /* gray-300 */
+  --tw-prose-invert-code: rgb(251 207 232) !important; /* pink-200 */
+  --tw-prose-invert-pre-code: rgb(229 231 235) !important; /* gray-200 */
+  --tw-prose-invert-pre-bg: rgb(0 0 0 / 50%) !important;
+  --tw-prose-invert-th-borders: rgb(75 85 99) !important; /* gray-600 */
+  --tw-prose-invert-td-borders: rgb(55 65 81) !important; /* gray-700 */
+}
+
+/* More specific selectors for direct control */
+.dark .prose p {
+  color: rgb(243 244 246) !important; /* gray-100 */
+}
+
+.dark .prose h1,
+.dark .prose h2,
+.dark .prose h3,
+.dark .prose h4,
+.dark .prose h5,
+.dark .prose h6 {
+  color: rgb(249 250 251) !important; /* gray-50 - almost white */
+}
+
+.dark .prose strong {
+  color: rgb(249 250 251) !important; /* gray-50 */
+}
+
+.dark .prose li {
+  color: rgb(243 244 246) !important; /* gray-100 */
+}
